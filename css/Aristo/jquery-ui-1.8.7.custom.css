@@ -251,7 +251,7 @@
 .ui-icon-search { background-position: -160px -112px; }
 .ui-icon-wrench { background-position: -176px -112px; }
 .ui-icon-gear { background-position: -192px -112px; }
-.ui-icon-heart { background-position: -208px -112px; }
+.ui-icon-heart { background-position: -209px -113px; }
 .ui-icon-star { background-position: -224px -112px; }
 .ui-icon-link { background-position: -240px -112px; }
 .ui-icon-cancel { background-position: 0 -128px; }
@@ -710,7 +710,9 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 .ui-progressbar .ui-progressbar-value {margin: -1px; height:100%; background: url(images/progress_bar.gif) 0 0 repeat-x; }
 
 /* Extra Input Field Styling */
-textarea, input:not([type="checkbox"]):not([type="radio"]):not([type="file"]) {
+textarea
+/* , input:not([type="checkbox"]):not([type="radio"]):not([type="file"]) */
+{
 	padding: 3px;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
